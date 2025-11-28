@@ -1,5 +1,3 @@
-from string import punctuation
-
 class VignereTranslator:
     def __init__(self, key: int | str, alphabet: str = 'abcdefghijklmnopqrstuvwxyzæøå'):
         self.alphabet = alphabet
